@@ -65,6 +65,7 @@ a i {
 .product {
     width: calc(97% / 3);
     position: relative;
+    margin-bottom: 100px;
 }
 
 .product:hover .secondary-img {
