@@ -16,7 +16,7 @@ header {
     color: white;
     background-color: #ff6900;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     box-shadow: 0 3px 2px -2px gray;
 }
@@ -26,12 +26,13 @@ main {
     margin: 0 auto;
 }
 
-.categories-header, .logo., .icons-header {
-    width: calc(100% / 3);
+.categories-header, .logo-boolando, .icons-header {
+    width: calc(100 / 3);
 }
 
 .header-container {
     width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -199,10 +200,6 @@ h4 {
     display: flex;
     justify-content: space-between;
     font-size: 15px;
-}
-
-.contact-list {
-    margin-left: ;
 }
 
 .footer-right {
