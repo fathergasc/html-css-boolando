@@ -3,3 +3,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    color: white;
+    background-color: #ff6900;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    box-shadow: 0 3px 2px -2px gray;
+}
+
+.categories-header, .logo. .icons-header {
+    width: calc(100% / 3);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    color: white;
+    padding-right: 10px;
+    font-weight: bold;
+
+}
+
+.logo-boolando img {
+    width: 140px;
+}
+
+a i {
+    color: white;
+    padding-rigth: 13px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.product {
+    width: calc(97% / 3);
+}
+
+.product img {
+    width: 100%;
+}
+
+/* debug rules */
+
+.product.debug {
+    heig
+}
+
+/* fine debug rules */
+
+
