@@ -22,7 +22,7 @@ header {
     box-shadow: 0 3px 2px -2px gray;
 }
 
-.categories-header, .logo. .icons-header {
+.categories-header, .logo., .icons-header {
     width: calc(100% / 3);
 }
 
@@ -51,7 +51,7 @@ li {
 
 a i {
     color: white;
-    padding-rigth: 13px;
+    padding-right: 13px;
 }
 
 .product-container {
@@ -67,6 +67,14 @@ a i {
     position: relative;
 }
 
+.product:hover .secondary-img {
+    display: block;
+}
+
+.product:hover .primary-img {
+    display: none;
+}
+
 .product img {
     width: 100%;
 }
@@ -80,26 +88,78 @@ a i {
     right: 0px;
     text-align: center;
     line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.heart:hover {
+    color: red;
 }
 
 .tags-container {
-    height: 30px;
     width: 100%;
     position: absolute;
     bottom: 40px;
     left: 0px;
+}
+
+.discount {
+    width: 15%;
     background-color: red;
 }
 
+.sostenibile {
+    width: 25%;
+    background-color: #008000;
+   
+}
+
+.discount, .sostenibile {
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding: 1px;
+}
+
+.product-info {
+    position: absolute;
+    top:100%;
+}
+
+.brand {
+    font-size: 13px;
+}
+
+h3 {
+}
+
+.discounted-price {
+    color: red;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.full-price {
+    text-decoration: line-through;
+}
+
+.discounted-price, .full-price {
+    font-size: 14px;
+}
+
+/* margin aggiunto per impedire alla seconda immagine di muoversi sull'hover */
+
 .secondary-img {
     display: none;
+    margin-bottom: 4px;
 }
+
 
 /* debug rules */
-
-.product.debug {
-    heig
-}
 
 /* fine debug rules */
 
