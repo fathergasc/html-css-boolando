@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
     font-family: sans-serif;
 }
@@ -22,27 +22,41 @@ header {
     box-shadow: 0 3px 2px -2px gray;
 }
 
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .categories-header, .logo., .icons-header {
     width: calc(100% / 3);
 }
 
-ul {
-    list-style: none;
+.header-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories-header ul {
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
 }
 
-li {
+.categories-header ul li {
     color: white;
     padding-right: 10px;
     font-weight: bold;
-
 }
 
 .logo-boolando img {
@@ -51,7 +65,7 @@ li {
 
 a i {
     color: white;
-    padding-right: 13px;
+    padding-left: 13px;
 }
 
 .product-container {
@@ -152,6 +166,55 @@ h3 {
     font-size: 14px;
 }
 
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left, .footer-right {
+    color: white;
+    height: 80px;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+h4 {
+    font-size: 13px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.legal-list, .contact-list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.contact-list {
+    margin-left: ;
+}
+
+.footer-right {
+    align-items: flex-end;
+}
 /* margin aggiunto per impedire alla seconda immagine di muoversi sull'hover */
 
 .secondary-img {
