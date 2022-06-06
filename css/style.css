@@ -12,13 +12,15 @@ body {
 
 header {
     height: 60px;
-    width: 100%;
+    width: 1400px;
     color: white;
     background-color: #ff6900;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 3px 2px -2px gray;
+    position: fixed;
+    z-index: 9999;
 }
 
 main {
