@@ -21,11 +21,13 @@ header {
     box-shadow: 0 3px 2px -2px gray;
     position: fixed;
     z-index: 9999;
+    top: 0;
 }
 
 main {
     width: 80%;
     margin: 0 auto;
+    padding-top: 50px;
 }
 
 .categories-header, .logo-boolando, .icons-header {
